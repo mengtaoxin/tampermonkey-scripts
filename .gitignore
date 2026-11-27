@@ -1,1 +1,56 @@
-.idea
+# --- OS-generated files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Editors and IDEs ---
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --- Logs and temporary files ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+
+# --- Secrets and environment ---
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# --- Local keys and certificates ---
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_rsa.*
+id_dsa
+id_ecdsa
+id_ed25519
+*.ppk
+
+# --- Project: Tampermonkey userscript collection ---
+# Source scripts (*.js) and docs under subfolders are tracked intentionally.
+# No separate build output directory in this repository.
